@@ -13,7 +13,7 @@ Then from within the project directory, create and activate the conda environmen
 
 ```bash
 cd MarketMind
-conda env create --name=marketmind --file=environment.yml
+conda env create --name=marketmind --file=environment.yml python=3.11.3
 conda activate marketmind
 ```
 
